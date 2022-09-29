@@ -1,6 +1,6 @@
 {
   "name": "driveindex",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "A Google Drive Index to List, Watch and Download Files using a Beautiful UI.",
   "main": "README.md",
   "keywords": [
@@ -10,7 +10,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/VinzGh1/drive-index"
+    "url": "git+https://github.com/VinzGh1/drive-index.git"
   },
   "bugs": {
     "url": "https://github.com/VinzGh1/drive-index"
