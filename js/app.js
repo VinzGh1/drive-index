@@ -9,6 +9,25 @@ function init() {
    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;700&display=swap" rel="stylesheet">
   <link href='https://fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
   <style>
+  .support-h1 {
+    font-family: Montserrat; 
+    font-weight: 700; 
+    font-size:18px; 
+    color: white; 
+    letter-spacing: normal; 
+    line-height: 1.3;
+  }
+  
+  .jumlah-file {
+    margin-top: 10px; 
+    font-size: 15px; 
+    font-family:'Montserrat', sans-serif; 
+    font-weight:500; 
+    color: #ffffff; 
+    line-height:1.2; 
+    letter-spacing: normal;
+  }
+  
   .copyright {
         bottom: 0; 
         font-size:14px; 
@@ -50,7 +69,11 @@ function init() {
   </div>
 </div>
 <br>
-<footer class="footer mt-auto py-3 text-muted ${UI.footer_style_class}" style="${UI.fixed_footer ?'position: fixed; ': ''}left: 0; bottom: 0; width: 100%; text-align: center; color: white; z-index: 9999;${UI.hide_footer ? ' display:none;': ' display:block;'}"> <div class="container" style="width: auto; padding: 0 10px;"> ${UI.credit ? '<h1 class="support-h1">SUPPORT</h1>' : ''} <p>© ${UI.copyright_year} - <a href=" ${UI.company_link}" target="_blank"> ${UI.company_name}</a>, All Rights Reserved.</p> </div> </footer>
+<footer class="footer mt-auto py-3 text-muted ${UI.footer_style_class}" style="${UI.fixed_footer ?'position: fixed; ': ''}left: 0; bottom: 0; width: 100%; text-align: center; color: white; z-index: 9999;${UI.hide_footer ? ' display:none;': ' display:block;'}"> <div class="container" style="width: auto; padding: 0 10px;"> ${UI.credit ? '<h1 class="support-h1">SUPPORT</h1>' : ''} <a href="https://t.me/synerize" target="_blank"><img alt="Telegram" src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"/></a>
+<a href="https://www.facebook.com/kazu.miteku.1" target="_blank"><img alt="Facebook" src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white"/></a>
+<a href="https://saweria.co/Ryoo1" target="_blank"><img alt="Donation" src="https://img.shields.io/badge/🎁DONASI-e62929?style=for-the-badge&logo=Trakteer&logoColor=white"/></a>
+<p class="jumlah-file>22939</p>
+<p class="copyright">© ${UI.copyright_year} - <a class="copyright-links" href=" ${UI.company_link}" target="_blank"> ${UI.company_name}</a></p> </div> </footer>
   `;
     $('body').html(html);
 }
