@@ -62,7 +62,7 @@ function init() {
 <footer class="footer mt-auto py-3 text-muted ${UI.footer_style_class}" style="${UI.fixed_footer ?'position: fixed; ': ''}left: 0; bottom: 0; width: 100%; text-align: center; color: white; z-index: 9999;${UI.hide_footer ? ' display:none;': ' display:block;'}"> <div class="container" style="width: auto; padding: 0 10px;"> ${UI.credit ? '<h1 class="support-h1">SUPPORT</h1>' : ''} <a href="https://t.me/synerize" target="_blank"><img alt="Telegram" src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"/></a>
 <a href="https://www.facebook.com/kazu.miteku.1" target="_blank"><img alt="Facebook" src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white"/></a>
 <a href="https://saweria.co/Ryoo1" target="_blank"><img alt="Donation" src="https://img.shields.io/badge/🎁DONASI-e62929?style=for-the-badge&logo=Trakteer&logoColor=white"/></a>
-<p class="copyright">© ${UI.copyright_year} - <a class="copyright-links" href=" ${UI.company_link}" target="_blank"> ${UI.company_name}</a></p> </div> </footer>
+ </div> </footer>
   `;
     $('body').html(html);
 }
